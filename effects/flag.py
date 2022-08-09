@@ -162,6 +162,11 @@ def printFlag(country):
 		hyperion.imageDrawLine(int(0.175*iW), 0, int(0.175*iW), int(iH*0.35),int(0.1*iH), 255, 255, 255)
 		hyperion.imageDrawLine(0, int(0.175*iW), int(iH*0.35), int(0.175*iW),int(0.1*iH), 255, 255, 255)
 		
+	# ukr flag (ukraine)
+	if country == "pl":
+		hyperion.imageSolidFill(0, 91, 187)
+		hyperion.imageSolidFill(0, int(iH*0.5), iW, iH, 215, 213, 0)
+		
 	#############
 	# other flags
 	#############
